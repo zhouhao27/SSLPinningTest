@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3860FE0D2A6FBD4E001E6237 /* certificate.der in Resources */ = {isa = PBXBuildFile; fileRef = 3860FE0C2A6FBD4E001E6237 /* certificate.der */; };
+		3860FE0F2A6FBED5001E6237 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860FE0E2A6FBED5001E6237 /* ViewModel.swift */; };
+		3860FE102A6FBED5001E6237 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860FE0E2A6FBED5001E6237 /* ViewModel.swift */; };
+		3860FE142A6FC9E0001E6237 /* PublicKeyCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3860FE132A6FC9E0001E6237 /* PublicKeyCalculator.m */; };
+		3860FE152A6FC9E0001E6237 /* PublicKeyCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3860FE132A6FC9E0001E6237 /* PublicKeyCalculator.m */; };
+		38E0EA472A6FA11A000A60E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F23FEB2A6F874600457DD5 /* ContentView.swift */; };
+		38E0EA482A6FA11A000A60E2 /* SSLPinningTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F23FE92A6F874600457DD5 /* SSLPinningTestApp.swift */; };
+		38E0EA4B2A6FA11A000A60E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F23FF02A6F874900457DD5 /* Preview Assets.xcassets */; };
+		38E0EA4C2A6FA11A000A60E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F23FED2A6F874900457DD5 /* Assets.xcassets */; };
 		38F23FEA2A6F874600457DD5 /* SSLPinningTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F23FE92A6F874600457DD5 /* SSLPinningTestApp.swift */; };
 		38F23FEC2A6F874600457DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F23FEB2A6F874600457DD5 /* ContentView.swift */; };
 		38F23FEE2A6F874900457DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F23FED2A6F874900457DD5 /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3860FE0C2A6FBD4E001E6237 /* certificate.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = certificate.der; sourceTree = "<group>"; };
+		3860FE0E2A6FBED5001E6237 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3860FE112A6FC9E0001E6237 /* SSLPinningTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSLPinningTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		3860FE122A6FC9E0001E6237 /* SSLPinningTest-Info-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSLPinningTest-Info-Bridging-Header.h"; sourceTree = "<group>"; };
+		3860FE132A6FC9E0001E6237 /* PublicKeyCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicKeyCalculator.m; sourceTree = "<group>"; };
+		3860FE162A6FCB4A001E6237 /* PublicKeyCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicKeyCalculator.h; sourceTree = "<group>"; };
+		38E0EA502A6FA11A000A60E2 /* SSL-Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSL-Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E0EA512A6FA4A6000A60E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		38E0EA522A6FAAA6000A60E2 /* SSLPinningTest-Info-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SSLPinningTest-Info-Info.plist"; sourceTree = "<group>"; };
 		38F23FE62A6F874600457DD5 /* SSLPinningTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLPinningTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F23FE92A6F874600457DD5 /* SSLPinningTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinningTestApp.swift; sourceTree = "<group>"; };
 		38F23FEB2A6F874600457DD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +40,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38E0EA492A6FA11A000A60E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38F23FE32A6F874600457DD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,6 +60,9 @@
 		38F23FDD2A6F874600457DD5 = {
 			isa = PBXGroup;
 			children = (
+				38E0EA522A6FAAA6000A60E2 /* SSLPinningTest-Info-Info.plist */,
+				38E0EA512A6FA4A6000A60E2 /* README.md */,
+				3860FE0C2A6FBD4E001E6237 /* certificate.der */,
 				38F23FE82A6F874600457DD5 /* SSLPinningTest */,
 				38F23FE72A6F874600457DD5 /* Products */,
 			);
@@ -44,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				38F23FE62A6F874600457DD5 /* SSLPinningTest.app */,
+				38E0EA502A6FA11A000A60E2 /* SSL-Info.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +80,15 @@
 		38F23FE82A6F874600457DD5 /* SSLPinningTest */ = {
 			isa = PBXGroup;
 			children = (
-				38F23FE92A6F874600457DD5 /* SSLPinningTestApp.swift */,
-				38F23FEB2A6F874600457DD5 /* ContentView.swift */,
 				38F23FED2A6F874900457DD5 /* Assets.xcassets */,
+				38F23FEB2A6F874600457DD5 /* ContentView.swift */,
 				38F23FEF2A6F874900457DD5 /* Preview Content */,
+				3860FE162A6FCB4A001E6237 /* PublicKeyCalculator.h */,
+				3860FE132A6FC9E0001E6237 /* PublicKeyCalculator.m */,
+				3860FE112A6FC9E0001E6237 /* SSLPinningTest-Bridging-Header.h */,
+				3860FE122A6FC9E0001E6237 /* SSLPinningTest-Info-Bridging-Header.h */,
+				38F23FE92A6F874600457DD5 /* SSLPinningTestApp.swift */,
+				3860FE0E2A6FBED5001E6237 /* ViewModel.swift */,
 			);
 			path = SSLPinningTest;
 			sourceTree = "<group>";
@@ -70,6 +104,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		38E0EA452A6FA11A000A60E2 /* SSLPinningTest-Info */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E0EA4D2A6FA11A000A60E2 /* Build configuration list for PBXNativeTarget "SSLPinningTest-Info" */;
+			buildPhases = (
+				38E0EA462A6FA11A000A60E2 /* Sources */,
+				38E0EA492A6FA11A000A60E2 /* Frameworks */,
+				38E0EA4A2A6FA11A000A60E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSLPinningTest-Info";
+			productName = SSLPinningTest;
+			productReference = 38E0EA502A6FA11A000A60E2 /* SSL-Info.app */;
+			productType = "com.apple.product-type.application";
+		};
 		38F23FE52A6F874600457DD5 /* SSLPinningTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F23FF42A6F874900457DD5 /* Build configuration list for PBXNativeTarget "SSLPinningTest" */;
@@ -97,8 +148,12 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					38E0EA452A6FA11A000A60E2 = {
+						LastSwiftMigration = 1500;
+					};
 					38F23FE52A6F874600457DD5 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -116,16 +171,27 @@
 			projectRoot = "";
 			targets = (
 				38F23FE52A6F874600457DD5 /* SSLPinningTest */,
+				38E0EA452A6FA11A000A60E2 /* SSLPinningTest-Info */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		38E0EA4A2A6FA11A000A60E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E0EA4B2A6FA11A000A60E2 /* Preview Assets.xcassets in Resources */,
+				38E0EA4C2A6FA11A000A60E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38F23FE42A6F874600457DD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				38F23FF12A6F874900457DD5 /* Preview Assets.xcassets in Resources */,
+				3860FE0D2A6FBD4E001E6237 /* certificate.der in Resources */,
 				38F23FEE2A6F874900457DD5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,11 +199,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		38E0EA462A6FA11A000A60E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E0EA472A6FA11A000A60E2 /* ContentView.swift in Sources */,
+				3860FE102A6FBED5001E6237 /* ViewModel.swift in Sources */,
+				3860FE152A6FC9E0001E6237 /* PublicKeyCalculator.m in Sources */,
+				38E0EA482A6FA11A000A60E2 /* SSLPinningTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38F23FE22A6F874600457DD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				38F23FEC2A6F874600457DD5 /* ContentView.swift in Sources */,
+				3860FE0F2A6FBED5001E6237 /* ViewModel.swift in Sources */,
+				3860FE142A6FC9E0001E6237 /* PublicKeyCalculator.m in Sources */,
 				38F23FEA2A6F874600457DD5 /* SSLPinningTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +224,76 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		38E0EA4E2A6FA11A000A60E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SSLPinningTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NY88QP7A2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SSLPinningTest-Info-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-DINFO";
+				OTHER_SWIFT_FLAGS = "-DINFO";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zh.SSLPinningTest.info;
+				PRODUCT_NAME = "SSL-Info";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SSLPinningTest/SSLPinningTest-Info-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E0EA4F2A6FA11A000A60E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SSLPinningTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NY88QP7A2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SSLPinningTest-Info-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-DINFO";
+				OTHER_SWIFT_FLAGS = "-DINFO";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zh.SSLPinningTest.info;
+				PRODUCT_NAME = "SSL-Info";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SSLPinningTest/SSLPinningTest-Info-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		38F23FF22A6F874900457DD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -269,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SSLPinningTest/Preview Content\"";
@@ -288,6 +438,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zh.SSLPinningTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SSLPinningTest/SSLPinningTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SSLPinningTest/Preview Content\"";
@@ -317,6 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zh.SSLPinningTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SSLPinningTest/SSLPinningTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -325,6 +479,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38E0EA4D2A6FA11A000A60E2 /* Build configuration list for PBXNativeTarget "SSLPinningTest-Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E0EA4E2A6FA11A000A60E2 /* Debug */,
+				38E0EA4F2A6FA11A000A60E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		38F23FE12A6F874600457DD5 /* Build configuration list for PBXProject "SSLPinningTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
